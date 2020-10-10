@@ -10,7 +10,6 @@
 .gallery-container .gallery-card a{
     width: 100%;
     height: 100%;
-    margin-bottom: 20px;
 }
 .gallery-container .gallery-card a > img{
     width: 15vw;
@@ -18,7 +17,7 @@
     padding-right: 5px;
     object-fit: cover;
     transition: 0.5s;
-    padding: 5px;
+    padding: 10px;
 }
 
 .gallery-card img:hover{

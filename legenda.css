@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap');
 
+figcaption p b{
+    color: rgb(15, 161, 15);
+    background-color: rgba(228, 226, 226, 0.897);
+    border-radius: 5px;
+    padding: 1px;
+}
 @media(min-width: 1170px){
 .gallery-card figcaption{
+    font-family: 'Commissioner', sans-serif;
     opacity: 0;
 	position: absolute;
 	top: 90%;
@@ -23,6 +31,7 @@
 
 @media (min-width:500px) and (max-width: 699px){
     .gallery-card figcaption{
+        font-family: 'Commissioner', sans-serif;
         font-size: 8px;
         opacity: 0;
         position: absolute;
@@ -38,7 +47,6 @@
         margin-top: 54px;
     }
     .gallery-card:hover figcaption{
-        color: black;
         opacity: 1;
         position: absolute;
         transform: scale(1.1);
@@ -47,6 +55,7 @@
 
 @media(min-width: 700px) and (max-width: 1169px){
     .gallery-card figcaption{
+        font-family: 'Commissioner', sans-serif;
         font-size: 12px;
         opacity: 0;
         position: absolute;
@@ -70,8 +79,8 @@
 
     @media(min-width: 200px) and (max-width: 499px){
         .gallery-card figcaption{
+            font-family: 'Commissioner', sans-serif;
             font-size: 7px;
-            color: blue;
             opacity: 0;
             position: absolute;
             top: 130px;
