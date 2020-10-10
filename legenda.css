@@ -67,7 +67,7 @@
     }
     }
 
-    @media(max-width: 699px){
+    @media(min-width: 200px) and (max-width: 499px){
         .gallery-card figcaption{
             font-size: 7px;
             opacity: 0;
